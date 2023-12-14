@@ -1,0 +1,48 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color:purple;
+    color: red;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: plum;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px orangered(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: yellow;
+    color: red;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+
+

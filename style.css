@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: palevioletred;
+    color: red;
+}
+
+h1 {
+    color:aqua;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
